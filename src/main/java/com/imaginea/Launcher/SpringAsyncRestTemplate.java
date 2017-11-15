@@ -12,6 +12,11 @@ import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.web.client.AsyncRestTemplate;
 
 @SpringBootApplication
+/**
+ * this class is for testing purpose only
+ * @author atishv
+ *
+ */
 public class SpringAsyncRestTemplate {
 
 	public static void main(String[] args) {
