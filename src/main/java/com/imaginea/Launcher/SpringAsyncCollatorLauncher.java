@@ -21,7 +21,11 @@ public class SpringAsyncCollatorLauncher {
 		
 	}
 
-	
+	/**
+	 * Changes has been made as per requirement 
+	 * 
+	 * @return
+	 */
 	@Bean
 	public Executor asyncExecutor() {
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
