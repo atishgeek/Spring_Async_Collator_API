@@ -10,10 +10,14 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 @SpringBootApplication
 @EnableAsync
-public class AsyncAnnotations {
+public class SpringAsyncCollatorLauncher {
 
+	/**
+	 * Class used to launch the application
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		SpringApplication.run(AsyncAnnotations.class,args);
+		SpringApplication.run(SpringAsyncCollatorLauncher.class,args);
 		
 	}
 
