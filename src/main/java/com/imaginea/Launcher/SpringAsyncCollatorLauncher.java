@@ -1,7 +1,10 @@
 package com.imaginea.Launcher;
 
+import static org.junit.Assert.*;
+
 import java.util.concurrent.Executor;
 
+import org.junit.Test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -36,6 +39,16 @@ public class SpringAsyncCollatorLauncher {
 		executor.initialize();
 		
 		return executor;
+	}
+	
+	
+	/**
+	 * This is a spring test method 
+	 * 
+	 * @throws Exception
+	 */
+	public void testName() throws Exception {
+		
 	}
 	
 	
